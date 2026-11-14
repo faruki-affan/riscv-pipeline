@@ -1,0 +1,25 @@
+# Simulation outputs
+*.vcd
+*.fst
+*.vvp
+*.vpd
+*.lxt
+*.lxt2
+*.log
+
+# Local binaries and build outputs
+results/*
+!results/.gitkeep
+build/
+*.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
